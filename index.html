@@ -3,7 +3,7 @@
   <head>
     <title>CPSI - Centro de promoção à saúde da pessoa idosa</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="imagens/arvore-cpsi.ico">
   </head>
   <body>
@@ -21,14 +21,14 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="banner">
         <h1>BEM-VINDOS AO CPSI!</h1>
         <p>Centro de promoção à saúde da pessoa idosa</p>
         <p>Projeto vinculado ao IFRN</p>
         <p>Há 23 anos promovendo o bem-estar da pessoa idosa <br/> e uma prática profissional qualificada</p>
-        <a href="">SAIBA MAIS</a>
+        <a href="" class="saibamais">SAIBA MAIS</a>
       </section>
-      <section>
+      <section class="projeto">
         <div>
           <h2 id="sobre-o-projeto">SOBRE O PROJETO</h2>
         <p>O Centro de Promoção á saúde da Pessoa Idosa, conhecido como CPSI, é um projeto vinculado ao IFRN com o intuito de promover o bem-estar, qualidade de vida, saúde e inclusão social as pessoas 60+. As atividades físicas, educativas, artísticas, culturais, de esporte e de lazer - divididas entre as modalidades de “cursos de ensino” e “oficinas de extensão” - tem como objetivo contribuir com o resgate da cidadania, aumentando a autonomia e o bem-estar do idoso. Além disso, o projeto busca capacitar profissionais da Rede de Atenção à Pessoa Idosa, possibilitando a prática profissional qualificada.</p>
@@ -37,7 +37,7 @@
           <img src="imagens/projeto-cpsi.png" alt="Exemplos de aulas do projeto">
         </div>
       </section>
-      <section>
+      <section class="modalidades">
         <h2 id="modalidades">MODALIDADES</h2>
         <h3>OFCINAS DE EXTENSÃO</h3>
         <ul>
@@ -60,7 +60,7 @@
           <li><a><img src="imagens/card-grupoativamente.png" alt="Card grupo ativaMENTE"></a></li>
         </ul>
       </section>
-      <section id="horarios">
+      <section class="horarios" id="horarios">
         <table>
           <thead>
             <caption>HORÁRIOS</caption>
@@ -125,7 +125,7 @@
           </tbody>
         </table> 
       </section>
-      <section id="inscricoes">
+      <section class="inscricoes" id="inscricoes">
         <h2 >INSCRIÇÕES</h2>
         <p>Se interessou pelo projeto? Acesse o site e realize sua inscrição:</p>
         <ul>
@@ -133,7 +133,7 @@
           <li><a href="cadastro.html">CADASTRE-SE</a></li>
         </ul>
       </section>
-      <section>
+      <section class="contato">
         <h2 id="contato">CONTATO</h2>
         <p>Acompanhe nossas redes sociais e qualquer dúvida entre em contato:</p>
         <div>
@@ -149,22 +149,32 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section> <!--class="equipe"-->
         <h2 id="equipe">EQUIPE</h2>
-        <diV>
+        <div class="equipe">
           <img src="imagens/foto-coordenador.png" alt="foto coordenador">
-          <h4>GUSTAVO BRITO</h4>
-          <p>Coordenador</p>
-        </diV>
-        <div>
+          <ul>
+            <li>GUSTAVO BRITO</li>
+            <li>Coordenador</li>
+          </ul>
+          <!--<h4>GUSTAVO BRITO</h4>
+          <p>Coordenador</p>-->
+        <!--</div>
+        <div class="equipe">-->
           <img src="imagens/foto-vicacoordenadora.png" alt="foto vice-coordenadora">
-          <h4>BRUNA COUTINHO</h4>
-          <p>Vice-Coordenadora</p>
+          <ul>
+            <li>BRUNA COUTINHO</li>
+            <li>Vice-Coordenadora</li>
+          </ul>
+          <!--<h4>BRUNA COUTINHO</h4>
+          <p>Vice-Coordenadora</p>-->
         </div>
       </section>
     </main>
     <footer>
-      <!--Adicionar a localização-->
+      <h4>Localização</h4>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1656.4631013110336!2d-35.206776455572445!3d-5.811907700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffe4d7b15191%3A0x5c55d75db98a785e!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20do%20Rio%20Grande%20do%20Norte!5e1!3m2!1spt-BR!2sbr!4v1741285934180!5m2!1spt-BR!2sbr" width="320" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <address>Av. Sen. Salgado Filho, 1559 - Tirol, <br> Natal - RN, 59015-000 <br> Prédio da Terceira Idade - NUARTE</address>
     </footer>
   </body>
 </html>

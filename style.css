@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+}
+nav ul {
+    display: flex;
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: #314C1D;   
+}
+
+.banner{
+    background-image: url(imagens/banner-cpsi.png);
+    color: #314C1D;
+    text-align: center;
+    border-top: 2px solid #314C1D;
+}
+
+.banner a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.saibamais{
+    background-color: #314C1D;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.projeto{
+    background-color: #314C1D;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.modalidades h2{
+    text-align: center;
+}
+.modalidades ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.horarios{
+    background-color: #314C1D;
+}
+table{
+    margin: auto;
+}
+caption, th, td:first-child{
+    background-color: #B5CF92;
+}
+td{
+    background-color: #FFFFFF;
+}
+
+.inscricoes{
+    text-align: center;
+}
+.inscricoes ul{
+    display: flex;
+    justify-content: space-evenly;
+    /*alinhar ao centro e personalizar botões*/   
+}
+
+.contato{
+    text-align: center;
+}
+.contato div{
+    display: flex;
+    justify-content: center;
+}
+
+section h2{
+    text-align: center;
+}
+.equipe{
+    display: flex;
+}
+.equipe div{
+    display: flex;
+    align-items: center;
+}
+.equipe img{
+    background-color: #314C1D;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+}
+.equipe ul{
+    background-color: #314C1D;
+    height: 150px;
+    width: 200px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.equipe li{
+    color: #FFFFFF;
+    align-content: center;
+}
+
+footer{
+    background-color: #314C1D;
+    color: #FFFFFF;
+}
